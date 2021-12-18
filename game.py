@@ -65,7 +65,7 @@ def startgame(attempts=5):
         game_ended = check_game_status(selected_index,current_word,attempts_remaining)
         if game_ended:
             break
-if __name__=="__main__":
+if __name__=="__main__": #This line specifies the starting of the execution of program
     startgame()
         
 
